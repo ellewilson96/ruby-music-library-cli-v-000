@@ -62,4 +62,9 @@ end
       end
     end
 end
+
+  def play_song
+    puts "Please choose a song from #{list_songs}"
+    gets.strip
+  end
 end
