@@ -3,3 +3,9 @@
 require_relative '../config/environment'
 
 MusicLibraryController.new.call
+list songs
+list artists
+list genres
+list artist
+list genre
+play song
