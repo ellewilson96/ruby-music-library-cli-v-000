@@ -40,4 +40,9 @@ end
       puts "#{i}. #{s.name}"
     end
 end
+
+  def list_songs_by_artist
+    puts "Please write the name of an artist"
+    input = gets.strip
+  end
 end
